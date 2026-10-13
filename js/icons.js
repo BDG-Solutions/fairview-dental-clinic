@@ -45,10 +45,5 @@ export function icon(name, cls = 'icon') {
   return `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || ''}</svg>`;
 }
 
-// Logo mark: the practice's FDC monogram in a hand-drawn ring, redrawn as a simple vector.
-export const logoMark = `
-<svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
-  <circle cx="20" cy="20" r="20" fill="#e6f2f7"/>
-  <circle cx="20" cy="20" r="15.5" fill="none" stroke="#13283a" stroke-width="1.3" stroke-dasharray="70 3 20 4" transform="rotate(-60 20 20)"/>
-  <text x="20" y="24.4" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="600" font-size="12" fill="#1a7aa3">FDC</text>
-</svg>`;
+// Logo mark: the clinic's own FDC monogram (from fairviewdentalclinic.ie), on a white disc so it reads on dark backgrounds too.
+export const logoMark = '<img class="logo__mark" src="assets/logo.png" width="48" height="48" alt="">';

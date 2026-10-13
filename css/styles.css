@@ -90,7 +90,7 @@ main:focus { outline: none; }
 .site-header { position: sticky; top: 0; z-index: 40; background: rgba(246, 248, 249, .92); backdrop-filter: saturate(1.4) blur(12px); -webkit-backdrop-filter: saturate(1.4) blur(12px); border-bottom: 1px solid var(--line); }
 .header__inner { display: flex; align-items: center; justify-content: space-between; height: var(--header-h); gap: 20px; }
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
-.logo__mark { width: 40px; height: 40px; flex: none; }
+.logo__mark { width: 48px; height: 48px; flex: none; }
 .logo__text { font-family: var(--serif); font-size: 1.22rem; font-weight: 600; line-height: 1; }
 .logo__text small { display: block; margin-top: 5px; font-family: var(--sans); font-size: .68rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); }
 .logo--light { color: #fff; }
@@ -366,7 +366,7 @@ main:focus { outline: none; }
   .logo { gap: 7px; }
   .logo__text { font-size: .96rem; }
   .logo__text small { font-size: .56rem; letter-spacing: .1em; }
-  .logo__mark { width: 30px; height: 30px; }
+  .logo__mark { width: 40px; height: 40px; }
   .hero { padding: 32px 0 28px; }
   .hero .display { font-size: clamp(2rem, 7.4vw, 2.75rem); }
   .hero .lead { font-size: 1rem; }
@@ -401,7 +401,7 @@ main:focus { outline: none; }
 @media (max-width: 360px) {
   .logo__text { font-size: .88rem; }
   .logo__text small { display: none; }
-  .logo__mark { width: 26px; height: 26px; }
+  .logo__mark { width: 34px; height: 34px; }
   .menu-btn { min-width: 76px; }
 }
 
@@ -431,9 +431,10 @@ main:focus { outline: none; }
 .staff__card .h4, .staff__card .person__role { margin: 0; }
 .person__avatar--sm { width: 56px; height: 56px; font-size: 1.15rem; }
 .savings--3 { grid-template-columns: repeat(3, 1fr); }
-.logo__mark text { font-style: italic; }
 @media (min-width: 901px) and (max-width: 1100px) { .nav { gap: 18px; } .nav a:not(.btn) { font-size: .9rem; } }
 @media (max-width: 1000px) { .savings--3 { grid-template-columns: 1fr; } }
 @media (max-width: 600px) { .staff { grid-template-columns: 1fr; } .credentials { padding: 6px 20px; } }
 .nowrap { white-space: nowrap; }
 @media (max-width: 600px) { .topbar { font-size: .8rem; } .topbar .status { white-space: nowrap; } }
+.logo__mark { border-radius: 50%; background: #fff; object-fit: contain; }
+.logo--light .logo__mark { padding: 2px; }
