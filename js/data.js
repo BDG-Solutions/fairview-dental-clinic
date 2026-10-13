@@ -38,10 +38,10 @@ export const nav = [
 ];
 
 export const highlights = [
-  { icon: 'clock', title: 'Open until 7pm', text: 'On Tuesdays and Wednesdays, from 8am.' },
-  { icon: 'alert', title: 'Emergency appointments', text: 'Kept free every day for new and existing patients.' },
-  { icon: 'badge', title: 'PRSI, VHI and DeCare', text: 'Free PRSI exam for eligible patients.' },
-  { icon: 'bus', title: 'Bus stop outside', text: 'Fairview Park, served by 15 routes.' },
+  { icon: 'clock', title: 'Open until 7pm', text: 'Tuesdays and Wednesdays.' },
+  { icon: 'alert', title: 'Emergency appointments', text: 'Slots kept free every day.' },
+  { icon: 'badge', title: 'PRSI, VHI and DeCare', text: 'Free PRSI exam if eligible.' },
+  { icon: 'bus', title: 'Bus stop outside', text: 'Fairview Park, 15 routes.' },
 ];
 
 export const team = [
@@ -49,6 +49,7 @@ export const team = [
     name: 'Dr Aoife Lynch',
     role: 'Dentist',
     initials: 'AL',
+    photo: 'assets/team/aoife.png',
     quals: 'University College Cork, 2018 · Dip PCD RCSI · MFD RCSI',
     bio: [
       'A native of Tipperary, Aoife studied Dentistry at University College Cork, graduating in 2018. She then worked as a general dentist in Kent, England, before moving back to Dublin in 2020 to continue in general practice.',
@@ -60,6 +61,7 @@ export const team = [
     name: 'Dr Aidan Ahern',
     role: 'Dentist',
     initials: 'AA',
+    photo: 'assets/team/aidan.png',
     quals: 'University College Cork, 2018 · Dip PCD RCSI · MFD RCSI',
     bio: [
       'Aidan studied Dentistry in his home county at University College Cork, graduating with Aoife in 2018. He gained valuable experience as a general dentist on the NHS in Essex, then moved back to Dublin in 2020 to continue in general practice.',
@@ -70,8 +72,8 @@ export const team = [
 ];
 
 export const staff = [
-  { name: 'Patrick Donoghue', role: 'Receptionist', initials: 'PD' },
-  { name: 'Oleksandra Ouardi', role: 'Dental Nurse', initials: 'OO' },
+  { name: 'Patrick Donoghue', role: 'Receptionist', initials: 'PD', photo: 'assets/team/patrick.png' },
+  { name: 'Oleksandra Ouardi', role: 'Dental Nurse', initials: 'OO', photo: 'assets/team/oleksandra.png' },
 ];
 
 export const aboutPillars = [

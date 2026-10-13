@@ -222,7 +222,7 @@ function renderAbout() {
   })}
   <section class="section section--flush">
     <div class="container">
-      <figure class="about-photo" data-reveal><img src="assets/reception.jpg" width="825" height="1100" alt="The bright, newly refurbished reception at Fairview Dental Clinic" loading="lazy"><figcaption><p class="eyebrow">Come and see us</p><h2 class="h2">A newly refurbished clinic.</h2><p>Dr Aoife and Dr Aidan took charge of the clinic in December 2022 and look forward to providing top-quality dental care to the people of Fairview for years to come.</p></figcaption></figure>
+      <figure class="about-photo" data-reveal><div class="duo"><img src="assets/team/aoife.png" width="373" height="480" alt="Dr Aoife Lynch" loading="lazy"><img src="assets/team/aidan.png" width="299" height="191" alt="Dr Aidan Ahern" loading="lazy"></div><figcaption><p class="eyebrow">Come and see us</p><h2 class="h2">A newly refurbished clinic.</h2><p>Dr Aoife and Dr Aidan took charge of the clinic in December 2022 and look forward to providing top-quality dental care to the people of Fairview for years to come.</p></figcaption></figure>
     </div>
   </section>
   <section class="section">
@@ -264,7 +264,7 @@ function renderTeam() {
       <div class="team">
         ${team.map((m) => `
           <article class="person" data-reveal>
-            <div class="person__avatar" aria-hidden="true">${m.initials}</div>
+            <img class="person__avatar person__avatar--photo" src="${m.photo}" alt="${m.name}" loading="lazy">
             <div>
               <h2 class="h3">${m.name}</h2>
               <p class="person__role">${m.role}</p>
@@ -275,7 +275,7 @@ function renderTeam() {
           </article>`).join('')}
       </div>
       <div class="staff">
-        ${staff.map((s) => `<article class="staff__card" data-reveal><div class="person__avatar person__avatar--sm" aria-hidden="true">${s.initials}</div><div><h2 class="h4">${s.name}</h2><p class="person__role">${s.role}</p></div></article>`).join('')}
+        ${staff.map((s) => `<article class="staff__card" data-reveal><img class="person__avatar person__avatar--sm person__avatar--photo" src="${s.photo}" alt="${s.name}" loading="lazy"><div><h2 class="h4">${s.name}</h2><p class="person__role">${s.role}</p></div></article>`).join('')}
       </div>
     </div>
   </section>
