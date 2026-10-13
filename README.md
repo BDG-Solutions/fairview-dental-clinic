@@ -6,7 +6,7 @@ A redesign proposal for [fairviewdentalclinic.ie](https://www.fairviewdentalclin
 
 ## What's improved
 
-- **Navigation that works** — on the current site, Services, Our Team, About Us and Contact Us all lead back to the home page. Here each one is its own page: Home, About Us, Our Team, Services, Fees and Contact.
+- **Clear structure** — the current site is one long page. Here Home, About Us, Our Team, Services, Fees and Contact each get their own page, and every service links to its prices.
 - **Mobile first** — sticky Call / Book / Directions bar, full-screen menu and large tap targets.
 - **Late appointments up front** — "open until 7pm on Tuesdays and Wednesdays" is on the home page, with today's hours highlighted and a live "Open now / Closed now" status (Irish time).
 - **Social proof** — the 4.7★ Google rating (79 reviews) sits next to the main call to action and links to the Google listing.
@@ -15,6 +15,7 @@ A redesign proposal for [fairviewdentalclinic.ie](https://www.fairviewdentalclin
 - **Appointment request form** — prepares an email to reception (name, phone, reason, preferred time), with a copy option. No server needed.
 - **Getting here** — map, copy-address button, directions, the Fairview Park bus stop and on-street parking.
 - **Real photos** — the clinic's own treatment room and reception, instead of stock images.
+- **Cleaner copy** — typos fixed ("RCSI", "networks") and photos described in words instead of file names such as "IMG_6345.jpeg".
 - **Accessible** — semantic HTML, skip link, keyboard-friendly menu (focus trap, Esc to close), visible focus, reduced-motion support, meaningful image descriptions.
 
 ## Stack
