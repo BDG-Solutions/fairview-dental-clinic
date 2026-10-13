@@ -442,7 +442,6 @@ main:focus { outline: none; }
 /* team photos */
 .person__avatar--photo { width: 112px; height: 112px; object-fit: cover; object-position: center 18%; background: var(--brand-tint); padding: 0; }
 .person__avatar--sm.person__avatar--photo { width: 64px; height: 64px; }
-.about-photo .duo { display: flex; justify-content: center; align-items: flex-end; gap: 4%; aspect-ratio: 4 / 3; padding: 24px 16px 0; overflow: hidden; border-radius: 14px; background: radial-gradient(circle at 50% 30%, #fff, var(--brand-tint) 70%); }
-.about-photo .duo img { width: 46%; height: 92%; object-fit: cover; object-position: center top; border-radius: 0; aspect-ratio: auto; }
 .highlights span { white-space: nowrap; }
 @media (max-width: 600px) { .person__avatar--photo { width: 96px; height: 96px; } }
+.about-photo img.about-photo__place { aspect-ratio: 4 / 5; object-position: center 55%; }

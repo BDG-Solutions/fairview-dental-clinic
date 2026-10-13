@@ -14,7 +14,7 @@ A redesign proposal for [fairviewdentalclinic.ie](https://www.fairviewdentalclin
 - **Searchable fee guide** with category filters, plus PRSI, VHI/DeCare and free-consultation notes.
 - **Appointment request form** — prepares an email to reception (name, phone, reason, preferred time), with a copy option. No server needed.
 - **Getting here** — map, copy-address button, directions, the Fairview Park bus stop and on-street parking.
-- **Real photos and logo** — the clinic's own FDC logo, team photos and treatment room, instead of stock images.
+- **Real photos and logo** — the clinic's own FDC logo, team photos and rooms, instead of stock images.
 - **Cleaner copy** — typos fixed ("RCSI", "networks") and photos described in words instead of file names such as "IMG_6345.jpeg".
 - **Accessible** — semantic HTML, skip link, keyboard-friendly menu (focus trap, Esc to close), visible focus, reduced-motion support, meaningful image descriptions.
 

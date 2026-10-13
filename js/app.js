@@ -222,7 +222,7 @@ function renderAbout() {
   })}
   <section class="section section--flush">
     <div class="container">
-      <figure class="about-photo" data-reveal><div class="duo"><img src="assets/team/aoife.png" width="373" height="480" alt="Dr Aoife Lynch" loading="lazy"><img src="assets/team/aidan.png" width="299" height="191" alt="Dr Aidan Ahern" loading="lazy"></div><figcaption><p class="eyebrow">Come and see us</p><h2 class="h2">A newly refurbished clinic.</h2><p>Dr Aoife and Dr Aidan took charge of the clinic in December 2022 and look forward to providing top-quality dental care to the people of Fairview for years to come.</p></figcaption></figure>
+      <figure class="about-photo" data-reveal><img class="about-photo__place" src="assets/clinic.jpg" width="825" height="1100" alt="The newly refurbished clinic, looking through to a treatment room" loading="lazy"><figcaption><p class="eyebrow">Come and see us</p><h2 class="h2">A newly refurbished clinic.</h2><p>Dr Aoife and Dr Aidan took charge of the clinic in December 2022 and look forward to providing top-quality dental care to the people of Fairview for years to come.</p></figcaption></figure>
     </div>
   </section>
   <section class="section">
